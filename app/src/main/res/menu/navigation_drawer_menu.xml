@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_telaInicial"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Próximas Encomendas">
+        </item>
+
+        <item android:id="@+id/nav_docesAfazer"
+            android:icon="@drawable/ic_baseline_cake_24"
+            android:title="Doces a Fazer">
+        </item>
+
+        <item android:id="@+id/nav_cadastrarEncomenda"
+            android:icon="@drawable/ic_baseline_playlist_add_24"
+            android:title="Cadastrar Encomenda">
+        </item>
+
+    </group>
+
+
+    <item android:title="Procurar Encomendas">
+
+        <menu>
+            <item
+                android:id="@+id/nav_listaPorData"
+                android:icon="@drawable/ic_baseline_calendar_month_24"
+                android:title="Procurar por Data">
+            </item>
+
+            <item
+                android:id="@+id/nav_listaPorCliente"
+                android:icon="@drawable/ic_baseline_person_search_24"
+                android:title="Procurar por Nome do Cliente">
+            </item>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Dados Salvos">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_doces"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Doces">
+            </item>
+
+            <item
+                android:id="@+id/nav_clientes"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="Clientes">
+            </item>
+
+            <item
+                android:id="@+id/nav_usuario"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Meu Perfil">
+            </item>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>

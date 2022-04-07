@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutUmaLinhaEncomenda"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewUmaLinhaEncomendaQtdDoces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="9999 Doces"
+        android:textAlignment="center"
+        android:textColor="@color/rosinha"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUmaLinhaEncomendaNomeCliente" />
+
+    <TextView
+        android:id="@+id/textViewUmaLinhaEncomendaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="88:88"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUmaLinhaEncomendaHora" />
+
+    <ImageView
+        android:id="@+id/imageViewUmaLinhaEncomendaData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewUmaLinhaEncomendaHora"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_month" />
+
+    <TextView
+        android:id="@+id/textViewUmaLinhaEncomendaData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="20dp"
+        android:text="dd/mm/aaaa"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewUmaLinhaEncomendaHora"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUmaLinhaEncomendaData" />
+
+    <ImageView
+        android:id="@+id/imageViewUmaLinhaEncomendaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUmaLinhaEncomendaData" />
+
+    <TextView
+        android:id="@+id/textViewUmaLinhaEncomendaNomeCliente"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Nome Cliente"
+        android:textAlignment="textStart"
+        android:textColor="@color/roxinho"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewUmaLinhaEncomendaAvisoObs"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewUmaLinhaEncomendaQtdDoces"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUmaLinhaEncomendaNomeCliente"
+        app:srcCompat="@drawable/ic_baseline_warning_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

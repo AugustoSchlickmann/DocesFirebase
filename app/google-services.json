@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "101838208301",
+    "project_id": "doces-77092",
+    "storage_bucket": "doces-77092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101838208301:android:19bf10ccfa94c0eb08a7a4",
+        "android_client_info": {
+          "package_name": "encomenda.doces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101838208301-ecsm2e37oigprv0d4lfkr7qvfp828spo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ3hRoOy-XQRQPKIEuhmoTkChr41BcsTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101838208301-ecsm2e37oigprv0d4lfkr7qvfp828spo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

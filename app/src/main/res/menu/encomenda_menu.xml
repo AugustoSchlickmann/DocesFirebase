@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_EditarEncomenda"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Editar Encomenda">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_ExcluirEncomenda"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Excluir Encomenda">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_Obs"
+        android:icon="@drawable/ic_baseline_warning_24"
+        android:title="Observações">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_CancelarEdicao"
+        android:icon="@drawable/ic_baseline_cancel_24"
+        android:title="Cancelar Edição"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsuarioActivity">
+
+    <ImageView
+        android:id="@+id/imageViewUsuario"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_cake_24" />
+
+    <TextView
+        android:id="@+id/textViewUsuarioNome"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Nome"
+        android:textColor="@color/roxinho"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextUsuarioNome"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewUsuario"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUsuarioNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="40"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewUsuarioNome"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewUsuario" />
+
+    <TextView
+        android:id="@+id/textViewEmailUsuario"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textColor="@color/roxinho"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextUsuarioEmail"
+        app:layout_constraintEnd_toEndOf="@+id/textViewUsuarioNome"
+        app:layout_constraintStart_toStartOf="@+id/textViewUsuarioNome" />
+
+    <EditText
+        android:id="@+id/editTextUsuarioEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/ic_baseline_alternate_email_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="40"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/editTextUsuarioNome"
+        app:layout_constraintStart_toStartOf="@+id/editTextUsuarioNome"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsuarioNome" />
+
+    <Button
+        android:id="@+id/botaoSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/rosinha"
+        android:drawableEnd="@drawable/ic_baseline_logout_24"
+        android:text="Sair"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsuarioEmail"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/botaoAtualizarUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/rosinha"
+        android:drawableEnd="@drawable/ic_baseline_check_24"
+        android:text="Atualizar"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsuarioEmail"
+        app:layout_constraintVertical_bias="1.0"
+        android:visibility="invisible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

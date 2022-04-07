@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_EditarUsuario"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Editar Perfil">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_MudarSenha"
+        android:icon="@drawable/ic_baseline_lock_24"
+        android:title="Mudar Senha">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_ExcluirUsuario"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Excluir Conta">
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/menu_CancelarEdicaoUsuario"
+        android:icon="@drawable/ic_baseline_cancel_24"
+        android:title="Cancelar Edição"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.215" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/background_spinner.xml" value="0.249" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_arrow_drop_up_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_cake_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_checklist_rtl_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_playlist_add_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/ic_launcher_background.xml" value="0.215" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/drawable/splash_bg.xml" value="0.2425" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.16484375" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout-w936dp/activity_login.xml" value="0.27181467181467184" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_cadastrar.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_cadastrar_encomenda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_drawer_base.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_drawer_header.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_encomenda.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_entrar.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_lista_clientes.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_lista_doces.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_lista_encomendas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_login.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/activity_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/content_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/dialogo_editar_valor_doce.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/dialogo_enqueci_senha.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/dialogo_obs_encomenda.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/dialogo_remover_doce.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/notificacao.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/uma_linha_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/uma_linha_doce.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/uma_linha_encomenda.xml" value="0.7197943444730077" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/layout/uma_linha_spinner_doce.xml" value="0.5" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/cliente_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/encomenda_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/lista_clientes_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/lista_encomenda_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/main_drawer_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/navigation_drawer_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/ordenar_lista_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/augusto.silva2/AndroidStudioProjects/Doces/app/src/main/res/menu/usuario_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

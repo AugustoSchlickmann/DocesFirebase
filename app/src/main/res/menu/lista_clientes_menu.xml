@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_listaClienteAZ"
+        android:icon="@drawable/ic_baseline_arrow_upward_24"
+        android:title="Listar de A a Z">
+
+    </item>
+
+    <item
+        android:id="@+id/menu_listaClienteZA"
+        android:icon="@drawable/ic_baseline_arrow_downward_24"
+        android:title="Listar de Z a A">
+
+    </item>
+
+</menu>
